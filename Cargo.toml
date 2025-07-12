@@ -1,0 +1,9 @@
+[package]
+name = "rust-note"
+edition = "2024"
+version = "0.1.0"
+rust-version = "1.88.0"
+
+
+[dependencies]
+tokio = {version = "1.45.1", features = ["rt", "rt-multi-thread", "macros", "time"] }
